@@ -1,0 +1,132 @@
+.form-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  /* justify-content: space-between; */
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* margin-bottom: 2rem; */
+  /* width: 6rem; */
+}
+
+.dropdown-content {
+  display: none;
+  font-weight: 600;
+  position: absolute;
+  background-color: #f9f9f9;
+  /* min-width: 160px; */
+  /* width: 12rem; */
+  height: 9.5rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.688);
+  padding: 1.5rem 1.5rem;
+  z-index: 1;
+  border-radius: 3px;
+}
+.filter-title {
+  display: block;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #495057;
+  width: 5rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .title {
+  margin-bottom: 1rem;
+} */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.html {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+.html:hover {
+  cursor: pointer;
+}
+.radio-buttons {
+  display: flex;
+  margin-top: 0.5rem;
+  border: 0.5px solid #dee2e6;
+  border-radius: 2px;
+  /* gap: 1rem; */
+}
+.studio {
+  width: 4rem !important;
+}
+.radio-button {
+  border: 0.5px solid #dee2e6;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  border: 2px solid #2f9e44 !important;
+  background-color: #d3f9d8;
+}
+/* .radio-button > input {
+  width: 6rem;
+} */
+.submit-button {
+  border: 2px solid #2f9e44;
+  background-color: white;
+  font-weight: 600;
+  border-radius: 3px;
+  width: 5rem;
+  height: 1.8rem;
+  margin-top: 1rem;
+  color: #495057;
+  margin-left: 5px;
+}
+.submit-button:hover {
+  background-color: #e9ecef;
+}
+.type-radio-button {
+  border: 0.5px solid #dee2e6;
+  width: 5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-container {
+  width: 18rem;
+  position: relative;
+}
+.search-container > input {
+  width: 100%;
+}
+.search-input {
+  height: 2rem;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  outline-offset: 0;
+  outline: none;
+}
+
+.search-input:focus {
+  border: 2px solid #2f9e44;
+  /* box-shadow: none; */
+}
+.search-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 2px solid #2f9e44;
+  border-radius: 0 6px 6px 0;
+  background-color: #2f9e44;
+  /* right: 0;
+  top: 0;
+  bottom: 0; */
+}

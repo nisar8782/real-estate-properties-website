@@ -1,0 +1,3 @@
+.my-breadcrumb {
+  --breadcrumb-divider: ">" !important; /* Define the custom property */
+}

@@ -1,0 +1,24 @@
+.list-container {
+  width: 90%;
+  /* border: 2px solid black;
+  border-radius: 3px; */
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px 3px #ced4da6e;
+}
+
+.list {
+  margin: 0;
+  list-style: none;
+  padding: 0.5rem;
+  /* padding-left: 0.5rem;
+  padding-top: 0.5rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.list-item:hover {
+  cursor: pointer;
+  color: #212529;
+}

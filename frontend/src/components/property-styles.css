@@ -1,0 +1,34 @@
+.properties {
+  margin: 12rem;
+  margin-top: 3rem;
+
+  /* width: 60%; */
+}
+a {
+  text-decoration: none;
+}
+.card:hover {
+  box-shadow: 0 0 10px rgba(33, 33, 33, 0.2);
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+.svg-icon {
+  width: 18px;
+  height: 18px;
+}
+img {
+  height: 15rem;
+}
+.img-container {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #ced4da;
+}
+.card-title,
+.card-text {
+  /* display: inline; */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+}

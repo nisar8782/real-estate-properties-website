@@ -1,0 +1,9 @@
+.user-form-container {
+  margin: 4rem 18rem 4rem 18rem;
+
+  padding: 2rem;
+}
+.save-button {
+  width: 5rem;
+  height: 2rem;
+}
